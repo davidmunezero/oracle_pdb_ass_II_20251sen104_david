@@ -52,3 +52,12 @@ FILE_NAME_CONVERT=
 As you can see, PDB number 5 is gone.
 
 ## Task 3: Oracle Enterprise Manager (OEM) Setup
+
+I configured Oracle Enterprise Manager using the pre-installed OEM Database Express web application available via https://localhost:5500/em and logged in as the system user. 
+![](./screenshots/oem_dashboard/image1.png)
+![](./screenshots/oem_dashboard/image2.png)
+
+## Submission Details
+* Repository Link: https://github.com/davidmunezero/oracle_pdb_ass_II_20251sen104_david.git
+* PDB Name Created: da_pdb_20251sen104
+* Issues Encountered: None
