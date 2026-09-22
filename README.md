@@ -11,7 +11,6 @@ This assignment covers multi-faceted aspects of Oracle 21c configuration, includ
 * Log in to the Oracle database as sys admin user  
 * Check the current CDB I am connected to using SHOW CON\_NAME;  
 * Ideally, I will conventionally create the PDB inside CDB$ROOT and a local user connected to the PDB  
-* Then, I will open the PDB and save its state so that I can read and write to it.
 
 ![](./images/image4.png) 
 
@@ -26,3 +25,30 @@ FILE_NAME_CONVERT=
 ('C:\APP\HP\PRODUCT\21C\ORADATA\XE\PDBSEED\',
  'C:\APP\HP\PRODUCT\21C\ORADATA\XE\da_pdb_20251sen104\');
 ```
+
+* Then, I will open the PDB and save its state so that I can read and write to it.
+![](./images/image2.png)
+
+## Task 2: Create and Delete a PDB
+
+**Steps**
+
+* Create the temporary PDB 
+
+![](./images/image6.png)
+
+* Verify that the PDB exists
+
+![](./images/image8.png)
+
+* Delete PDB completely
+
+![](./images/image5.png)
+
+* Confirm it no longer exists
+
+![](./images/image3.png)
+
+As you can see, PDB number 5 is gone.
+
+## Task 3: Oracle Enterprise Manager (OEM) Setup
