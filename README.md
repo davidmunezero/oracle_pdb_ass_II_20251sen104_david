@@ -12,7 +12,7 @@ This assignment covers multi-faceted aspects of Oracle 21c configuration, includ
 * Check the current CDB I am connected to using SHOW CON\_NAME;  
 * Ideally, I will conventionally create the PDB inside CDB$ROOT and a local user connected to the PDB  
 
-![](./images/image4.png) 
+![](./screenshots/pdb_creation/image4.png) 
 
 ***Explanation of PDB creation***
 ```sql
@@ -27,7 +27,7 @@ FILE_NAME_CONVERT=
 ```
 
 * Then, I will open the PDB and save its state so that I can read and write to it.
-![](./images/image2.png)
+![](./screenshots/pdb_creation/image2.png)
 
 ## Task 2: Create and Delete a PDB
 
@@ -35,19 +35,19 @@ FILE_NAME_CONVERT=
 
 * Create the temporary PDB 
 
-![](./images/image6.png)
+![](./screenshots/pdb_deletion/image6.png)
 
 * Verify that the PDB exists
 
-![](./images/image8.png)
+![](./screenshots/pdb_deletion/image8.png)
 
 * Delete PDB completely
 
-![](./images/image5.png)
+![](./screenshots/pdb_deletion/image5.png)
 
 * Confirm it no longer exists
 
-![](./images/image3.png)
+![](./screenshots/pdb_deletion/image3.png)
 
 As you can see, PDB number 5 is gone.
 
